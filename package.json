@@ -2,9 +2,9 @@
     "name": "azure-web-app",
     "version": "1.0.0",
     "description": "Meowing",
-    "main": "app.jz",
+    "main": "app.js",
     "scripts": {
-      "start": "node app.jz"
+      "start": "node app.js"
     },
     "dependencies": {
       "axios": "^0.21.1"
