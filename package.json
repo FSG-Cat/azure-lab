@@ -1,10 +1,10 @@
 {
     "name": "azure-web-app",
     "version": "1.0.0",
-    "description": "A Node.js app that shows a random joke",
-    "main": "app.js",
+    "description": "Meowing",
+    "main": "app.jz",
     "scripts": {
-      "start": "node app.js"
+      "start": "node app.jz"
     },
     "dependencies": {
       "axios": "^0.21.1"
