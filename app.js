@@ -10,7 +10,7 @@ const server = http.createServer(async (req, res) => {
     const joke = jokeResponse.data;
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
-    res.end(`<h1>${joke.setup}</h1><p>${joke.punchline}</p>`);
+    res.end(`<h1>${joke.setup}</h1><p>${joke.punchline}</p><p>meow</p>`);
   } catch (error) {
     res.statusCode = 500;
     res.setHeader('Content-Type', 'text/plain');
@@ -19,5 +19,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Server meowing at http://${hostname}:${port}/`);
 });
